@@ -7,10 +7,13 @@ module.exports = {
       red: "#B8001D",
       white: "#FFFFFF",
       black: "#000000",
+      dark: "#111111",
     },
     extend: {
       fontFamily: {
         minfont: "'Poppins', sans-serif;",
+        h1: "'Bebas Neue', cursive;",
+        h1alt: "'Noto Serif Balinese', serif;",
       },
     },
   },

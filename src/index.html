@@ -5,26 +5,38 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body class="dark:bg-black dark:text-white">
+  <body class="dark:bg-dark dark:text-white">
     <!-- section 1 -->
 
     <section class="relative place-items-center">
       <img src="/splash.webp" alt="splash" />
 
       <h1
-        class="absolute top-12 right-8 text-xl font-bold text-red sm:top-24 sm:right-12 sm:text-3xl md:top-24 md:right-28 lg:top-40 lg:right-40 lg:text-5xl"
+        class="absolute top-12 right-8 font-h1 text-2xl font-bold text-red sm:top-24 sm:right-14 sm:text-4xl md:top-20 md:right-20 md:text-5xl lg:top-40 lg:right-32 lg:text-6xl"
       >
         Københavnerbilleder
       </h1>
       <h2
-        class="absolute top-20 right-8 text-sm text-white sm:top-32 sm:right-12 sm:text-base md:top-32 md:right-28 md:text-lg lg:top-40 lg:right-40 lg:pt-14"
+        class="md:text-md absolute top-20 right-8 text-sm text-white sm:top-32 sm:right-14 sm:text-base md:top-32 md:right-20 lg:top-40 lg:right-32 lg:pt-14"
       >
         En guide til hipser foto
       </h2>
       <h2
-        class="absolute top-28 right-8 pt-2 text-lg text-white sm:top-44 sm:right-12 sm:text-xl md:top-44 md:right-28 md:text-2xl lg:top-36 lg:right-40 lg:pt-36 lg:text-3xl"
+        class="absolute top-28 right-8 pt-2 font-h1alt text-lg text-white sm:top-44 sm:right-14 sm:text-xl md:top-44 md:right-20 md:text-2xl lg:top-36 lg:right-32 lg:pt-36 lg:text-3xl"
       >
         Af Sten Simons
       </h2>
@@ -58,10 +70,14 @@
           Forlag: Mellem Linjerne <br />
           ISBN: 987-6-987654-32-1 <br />
           <br />
-          <b> Pris: 399.- </b>
+
+          <br />
+          <b class="font-h1alt text-base"> Pris: 399.- </b>
         </p>
         <button
           class="mb-10 mt-10 rounded-xl bg-red px-14 py-2 text-3xl text-white"
+          href="#"
+          onclick="window.location.reload(true);"
         >
           Køb nu
         </button>
@@ -85,7 +101,7 @@
           135-filmen kom på markedet, du kun har skudt digitalt eller er helt
           nybegynder, er der masser af tips og tricks i bogen.
         </p>
-        <p class="pt-4 font-medium">- Hanne Hovgaard, Berlingeren</p>
+        <p class="font pt-4 font-medium">- Hanne Hovgaard, Berlingeren</p>
       </div>
       <img class="" src="/foraar-med-et-agfa-lebox-2-20.webp" alt="" />
       <img class="" src="/lomo-smena-15.webp" alt="" />
@@ -244,7 +260,17 @@
       </li>
     </section>
 
-    <section class="m-8 lg:mt-4 lg:mr-52 lg:ml-52">
+    <section class="flex justify-center">
+      <button
+        class="mt-10 rounded-xl bg-red px-8 py-2 text-xl text-white"
+        href="#"
+        onclick="window.location.reload(true);"
+      >
+        Download prøvekapitel
+      </button>
+    </section>
+
+    <section class="flex justify-center lg:mr-24 lg:ml-24">
       <img class="" src="/kobenhavnerbilleder_oppefra.webp" alt="" />
     </section>
     <script type="module" src="./main.js"></script>
